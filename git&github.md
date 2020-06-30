@@ -35,7 +35,9 @@ git config --global user.name "Go-oh"
 `commit` | 커밋함
 `commit -m` | 커밋할 때 메시지(-m, *message*) 추가
 `commit -sm` | 커밋할 때 사인(-s, *signed*)과 메세지(-m, *message*) 추가
-`push` | 커밋된 것들을 github.com에 업로드
+`commit --amend` | 가장 최근의 커밋을 수정. (amend : 수정하다)
+`push` | 커밋된 것들을 github.com에 업로드. 에러날때가 있는데 주로 local에서 커밋 ID != Github에서의 커밋 ID여서다. 이때 강제로 푸쉬하면 이전에 푸쉬했던거 다 날라가니 주의
+`push origin master -f' | 강제로 푸쉬
 `init` | 해당 폴더를 git 초기화
 `remote` | 현재 있는 리모트 저장소를 확인
 - *`커밋한다` 는 의미는 `수정한 코드로 최신화한다` 와 같음*
@@ -224,3 +226,10 @@ Go-oh@DESKTOP MINGW64 ~/report-card (master)
 $
 ```
 
+
+<br><br>
+
+### d. 일반 명령어
+
+명령어 | 뜻
+-------|---
