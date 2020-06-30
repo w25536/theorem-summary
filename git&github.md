@@ -41,7 +41,7 @@ git config --global user.name "Go-oh"
 - *`커밋한다` 는 의미는 `수정한 코드로 최신화한다` 와 같음*
 - *`add`, `commit` 과 달리 `push`는 인터넷에 연결되어야 함*
 
-```
+```bash
 $ git init
 
 Go-oh@DESKTOP MINGW64 ~/report-card (master)
